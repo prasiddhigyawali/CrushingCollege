@@ -7,27 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		31BB4C7F26A7617A00BF1F61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BB4C7E26A7617A00BF1F61 /* AppDelegate.swift */; };
-		31BB4C8126A7617A00BF1F61 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BB4C8026A7617A00BF1F61 /* SceneDelegate.swift */; };
-		31BB4C8326A7617A00BF1F61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BB4C8226A7617A00BF1F61 /* ViewController.swift */; };
-		31BB4C8626A7617A00BF1F61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31BB4C8426A7617A00BF1F61 /* Main.storyboard */; };
-		31BB4C8826A7618200BF1F61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31BB4C8726A7618200BF1F61 /* Assets.xcassets */; };
-		31BB4C8B26A7618200BF1F61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31BB4C8926A7618200BF1F61 /* LaunchScreen.storyboard */; };
+		31BB4C9F26A762E300BF1F61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BB4C9E26A762E300BF1F61 /* AppDelegate.swift */; };
+		31BB4CA126A762E300BF1F61 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BB4CA026A762E300BF1F61 /* SceneDelegate.swift */; };
+		31BB4CA326A762E300BF1F61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BB4CA226A762E300BF1F61 /* ViewController.swift */; };
+		31BB4CA626A762E300BF1F61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31BB4CA426A762E300BF1F61 /* Main.storyboard */; };
+		31BB4CA926A762E300BF1F61 /* CrushingCollege.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 31BB4CA726A762E300BF1F61 /* CrushingCollege.xcdatamodeld */; };
+		31BB4CAB26A762E900BF1F61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31BB4CAA26A762E900BF1F61 /* Assets.xcassets */; };
+		31BB4CAE26A762E900BF1F61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31BB4CAC26A762E900BF1F61 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		31BB4C7B26A7617A00BF1F61 /* CrushingCollege.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrushingCollege.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		31BB4C7E26A7617A00BF1F61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		31BB4C8026A7617A00BF1F61 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		31BB4C8226A7617A00BF1F61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		31BB4C8526A7617A00BF1F61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		31BB4C8726A7618200BF1F61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		31BB4C8A26A7618200BF1F61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		31BB4C8C26A7618200BF1F61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31BB4C9B26A762E300BF1F61 /* CrushingCollege.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrushingCollege.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31BB4C9E26A762E300BF1F61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		31BB4CA026A762E300BF1F61 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		31BB4CA226A762E300BF1F61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		31BB4CA526A762E300BF1F61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		31BB4CA826A762E300BF1F61 /* CrushingCollege.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CrushingCollege.xcdatamodel; sourceTree = "<group>"; };
+		31BB4CAA26A762E900BF1F61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31BB4CAD26A762E900BF1F61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		31BB4CAF26A762E900BF1F61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		31BB4C7826A7617A00BF1F61 /* Frameworks */ = {
+		31BB4C9826A762E300BF1F61 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,32 +39,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		31BB4C7226A7617A00BF1F61 = {
+		31BB4C9226A762E300BF1F61 = {
 			isa = PBXGroup;
 			children = (
-				31BB4C7D26A7617A00BF1F61 /* CrushingCollege */,
-				31BB4C7C26A7617A00BF1F61 /* Products */,
+				31BB4C9D26A762E300BF1F61 /* CrushingCollege */,
+				31BB4C9C26A762E300BF1F61 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		31BB4C7C26A7617A00BF1F61 /* Products */ = {
+		31BB4C9C26A762E300BF1F61 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				31BB4C7B26A7617A00BF1F61 /* CrushingCollege.app */,
+				31BB4C9B26A762E300BF1F61 /* CrushingCollege.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		31BB4C7D26A7617A00BF1F61 /* CrushingCollege */ = {
+		31BB4C9D26A762E300BF1F61 /* CrushingCollege */ = {
 			isa = PBXGroup;
 			children = (
-				31BB4C7E26A7617A00BF1F61 /* AppDelegate.swift */,
-				31BB4C8026A7617A00BF1F61 /* SceneDelegate.swift */,
-				31BB4C8226A7617A00BF1F61 /* ViewController.swift */,
-				31BB4C8426A7617A00BF1F61 /* Main.storyboard */,
-				31BB4C8726A7618200BF1F61 /* Assets.xcassets */,
-				31BB4C8926A7618200BF1F61 /* LaunchScreen.storyboard */,
-				31BB4C8C26A7618200BF1F61 /* Info.plist */,
+				31BB4C9E26A762E300BF1F61 /* AppDelegate.swift */,
+				31BB4CA026A762E300BF1F61 /* SceneDelegate.swift */,
+				31BB4CA226A762E300BF1F61 /* ViewController.swift */,
+				31BB4CA426A762E300BF1F61 /* Main.storyboard */,
+				31BB4CAA26A762E900BF1F61 /* Assets.xcassets */,
+				31BB4CAC26A762E900BF1F61 /* LaunchScreen.storyboard */,
+				31BB4CAF26A762E900BF1F61 /* Info.plist */,
+				31BB4CA726A762E300BF1F61 /* CrushingCollege.xcdatamodeld */,
 			);
 			path = CrushingCollege;
 			sourceTree = "<group>";
@@ -70,13 +73,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		31BB4C7A26A7617A00BF1F61 /* CrushingCollege */ = {
+		31BB4C9A26A762E300BF1F61 /* CrushingCollege */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 31BB4C8F26A7618200BF1F61 /* Build configuration list for PBXNativeTarget "CrushingCollege" */;
+			buildConfigurationList = 31BB4CB226A762E900BF1F61 /* Build configuration list for PBXNativeTarget "CrushingCollege" */;
 			buildPhases = (
-				31BB4C7726A7617A00BF1F61 /* Sources */,
-				31BB4C7826A7617A00BF1F61 /* Frameworks */,
-				31BB4C7926A7617A00BF1F61 /* Resources */,
+				31BB4C9726A762E300BF1F61 /* Sources */,
+				31BB4C9826A762E300BF1F61 /* Frameworks */,
+				31BB4C9926A762E300BF1F61 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -84,24 +87,24 @@
 			);
 			name = CrushingCollege;
 			productName = CrushingCollege;
-			productReference = 31BB4C7B26A7617A00BF1F61 /* CrushingCollege.app */;
+			productReference = 31BB4C9B26A762E300BF1F61 /* CrushingCollege.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		31BB4C7326A7617A00BF1F61 /* Project object */ = {
+		31BB4C9326A762E300BF1F61 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					31BB4C7A26A7617A00BF1F61 = {
+					31BB4C9A26A762E300BF1F61 = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
 				};
 			};
-			buildConfigurationList = 31BB4C7626A7617A00BF1F61 /* Build configuration list for PBXProject "CrushingCollege" */;
+			buildConfigurationList = 31BB4C9626A762E300BF1F61 /* Build configuration list for PBXProject "CrushingCollege" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,55 +112,56 @@
 				en,
 				Base,
 			);
-			mainGroup = 31BB4C7226A7617A00BF1F61;
-			productRefGroup = 31BB4C7C26A7617A00BF1F61 /* Products */;
+			mainGroup = 31BB4C9226A762E300BF1F61;
+			productRefGroup = 31BB4C9C26A762E300BF1F61 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				31BB4C7A26A7617A00BF1F61 /* CrushingCollege */,
+				31BB4C9A26A762E300BF1F61 /* CrushingCollege */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		31BB4C7926A7617A00BF1F61 /* Resources */ = {
+		31BB4C9926A762E300BF1F61 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31BB4C8B26A7618200BF1F61 /* LaunchScreen.storyboard in Resources */,
-				31BB4C8826A7618200BF1F61 /* Assets.xcassets in Resources */,
-				31BB4C8626A7617A00BF1F61 /* Main.storyboard in Resources */,
+				31BB4CAE26A762E900BF1F61 /* LaunchScreen.storyboard in Resources */,
+				31BB4CAB26A762E900BF1F61 /* Assets.xcassets in Resources */,
+				31BB4CA626A762E300BF1F61 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		31BB4C7726A7617A00BF1F61 /* Sources */ = {
+		31BB4C9726A762E300BF1F61 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31BB4C8326A7617A00BF1F61 /* ViewController.swift in Sources */,
-				31BB4C7F26A7617A00BF1F61 /* AppDelegate.swift in Sources */,
-				31BB4C8126A7617A00BF1F61 /* SceneDelegate.swift in Sources */,
+				31BB4CA326A762E300BF1F61 /* ViewController.swift in Sources */,
+				31BB4C9F26A762E300BF1F61 /* AppDelegate.swift in Sources */,
+				31BB4CA926A762E300BF1F61 /* CrushingCollege.xcdatamodeld in Sources */,
+				31BB4CA126A762E300BF1F61 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		31BB4C8426A7617A00BF1F61 /* Main.storyboard */ = {
+		31BB4CA426A762E300BF1F61 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				31BB4C8526A7617A00BF1F61 /* Base */,
+				31BB4CA526A762E300BF1F61 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		31BB4C8926A7618200BF1F61 /* LaunchScreen.storyboard */ = {
+		31BB4CAC26A762E900BF1F61 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				31BB4C8A26A7618200BF1F61 /* Base */,
+				31BB4CAD26A762E900BF1F61 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -165,7 +169,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		31BB4C8D26A7618200BF1F61 /* Debug */ = {
+		31BB4CB026A762E900BF1F61 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +230,7 @@
 			};
 			name = Debug;
 		};
-		31BB4C8E26A7618200BF1F61 /* Release */ = {
+		31BB4CB126A762E900BF1F61 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -281,7 +285,7 @@
 			};
 			name = Release;
 		};
-		31BB4C9026A7618200BF1F61 /* Debug */ = {
+		31BB4CB326A762E900BF1F61 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -299,7 +303,7 @@
 			};
 			name = Debug;
 		};
-		31BB4C9126A7618200BF1F61 /* Release */ = {
+		31BB4CB426A762E900BF1F61 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -320,25 +324,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		31BB4C7626A7617A00BF1F61 /* Build configuration list for PBXProject "CrushingCollege" */ = {
+		31BB4C9626A762E300BF1F61 /* Build configuration list for PBXProject "CrushingCollege" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				31BB4C8D26A7618200BF1F61 /* Debug */,
-				31BB4C8E26A7618200BF1F61 /* Release */,
+				31BB4CB026A762E900BF1F61 /* Debug */,
+				31BB4CB126A762E900BF1F61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		31BB4C8F26A7618200BF1F61 /* Build configuration list for PBXNativeTarget "CrushingCollege" */ = {
+		31BB4CB226A762E900BF1F61 /* Build configuration list for PBXNativeTarget "CrushingCollege" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				31BB4C9026A7618200BF1F61 /* Debug */,
-				31BB4C9126A7618200BF1F61 /* Release */,
+				31BB4CB326A762E900BF1F61 /* Debug */,
+				31BB4CB426A762E900BF1F61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		31BB4CA726A762E300BF1F61 /* CrushingCollege.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				31BB4CA826A762E300BF1F61 /* CrushingCollege.xcdatamodel */,
+			);
+			currentVersion = 31BB4CA826A762E300BF1F61 /* CrushingCollege.xcdatamodel */;
+			path = CrushingCollege.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
-	rootObject = 31BB4C7326A7617A00BF1F61 /* Project object */;
+	rootObject = 31BB4C9326A762E300BF1F61 /* Project object */;
 }
