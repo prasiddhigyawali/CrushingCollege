@@ -17,6 +17,7 @@
 		31BB4CA926A762E300BF1F61 /* CrushingCollege.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 31BB4CA726A762E300BF1F61 /* CrushingCollege.xcdatamodeld */; };
 		31BB4CAB26A762E900BF1F61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31BB4CAA26A762E900BF1F61 /* Assets.xcassets */; };
 		31BB4CAE26A762E900BF1F61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31BB4CAC26A762E900BF1F61 /* LaunchScreen.storyboard */; };
+		A80F0ED026A9F29000C83854 /* TestPrepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80F0ECF26A9F29000C83854 /* TestPrepViewController.swift */; };
 		A842AA5326A9C3380019DFDC /* collegeEssayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A842AA5226A9C3380019DFDC /* collegeEssayViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		31BB4CAA26A762E900BF1F61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31BB4CAD26A762E900BF1F61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31BB4CAF26A762E900BF1F61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A80F0ECF26A9F29000C83854 /* TestPrepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPrepViewController.swift; sourceTree = "<group>"; };
 		A842AA5226A9C3380019DFDC /* collegeEssayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collegeEssayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,6 +72,7 @@
 				31BB4CA026A762E300BF1F61 /* SceneDelegate.swift */,
 				31BB4CA226A762E300BF1F61 /* ViewController.swift */,
 				31BB4CA426A762E300BF1F61 /* Main.storyboard */,
+				A80F0ECF26A9F29000C83854 /* TestPrepViewController.swift */,
 				A842AA5226A9C3380019DFDC /* collegeEssayViewController.swift */,
 				31AE190B26A92F6600C67B47 /* ScholarshipVC.swift */,
 				31AE190926A92E2A00C67B47 /* PillarsViewController.swift */,
@@ -159,6 +162,7 @@
 				A842AA5326A9C3380019DFDC /* collegeEssayViewController.swift in Sources */,
 				31BB4C9F26A762E300BF1F61 /* AppDelegate.swift in Sources */,
 				31BB4CA926A762E300BF1F61 /* CrushingCollege.xcdatamodeld in Sources */,
+				A80F0ED026A9F29000C83854 /* TestPrepViewController.swift in Sources */,
 				31BB4CA126A762E300BF1F61 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
