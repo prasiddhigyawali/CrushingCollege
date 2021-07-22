@@ -29,15 +29,15 @@ class TestPrepViewController: UIViewController {
         openUrl(urlStr : "https://apply.jhu.edu/application-process/essays-that-worked/")
     }
     
-    @IBAction func CrackACT(_ sender: Any) {
-        openUrl(urlStr : "https://apply.jhu.edu/application-process/essays-that-worked/")
-    }
     
     @IBAction func ComparisonChart(_ sender: Any) {
         openUrl(urlStr : "https://apply.jhu.edu/application-process/essays-that-worked/")
     }
     
     
+    @IBAction func CrackACT(_ sender: Any) {
+        openUrl(urlStr : "https://apply.jhu.edu/application-process/essays-that-worked/")
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

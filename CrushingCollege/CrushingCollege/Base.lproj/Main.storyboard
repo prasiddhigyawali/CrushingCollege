@@ -33,14 +33,14 @@
                                 <state key="normal" title="PILLARS" backgroundImage="chart.bar" catalog="system">
                                     <color key="titleColor" red="0.4044300616" green="0.33094742890000001" blue="0.32913273570000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="HaQ-Wz-lhW" kind="show" id="P6U-5M-RNA"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zhK-n3-6ix">
                                 <rect key="frame" x="80" y="508" width="254" height="174"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <connections>
-                                    <segue destination="HaQ-Wz-lhW" kind="show" id="yis-6c-2Fz"/>
-                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -789,7 +789,6 @@
                                 </state>
                                 <connections>
                                     <action selector="CollegeBoard:" destination="HaQ-Wz-lhW" eventType="touchUpInside" id="1go-iL-Ftm"/>
-                                    <action selector="collegeBoard:" destination="HaQ-Wz-lhW" eventType="touchUpInside" id="jeq-49-Vbl"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T8P-0k-bpG">
@@ -847,7 +846,7 @@
                                     <color key="titleColor" red="0.89411771299999998" green="0.50196081400000003" blue="0.50588238240000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
-                                    <action selector="CrackACT:" destination="HaQ-Wz-lhW" eventType="touchUpInside" id="fRr-Ha-akl"/>
+                                    <action selector="CrackACT:" destination="HaQ-Wz-lhW" eventType="touchUpInside" id="JuB-qr-rPC"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="GvM-Kv-MIm">
@@ -861,13 +860,13 @@
                                 <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OSl-vL-F7k">
-                                <rect key="frame" x="0.0" y="787" width="414" height="44"/>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nfg-Rb-ScF">
+                                <rect key="frame" x="0.0" y="764" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
-                                    <barButtonItem title="Item" image="book" catalog="system" id="hxV-LF-bhz"/>
-                                    <barButtonItem title="Item" image="house" catalog="system" id="SK0-rh-8Wk"/>
-                                    <barButtonItem title="Item" image="chart.bar" catalog="system" id="fIy-Mr-Wab"/>
+                                    <barButtonItem title="Item" image="book" catalog="system" id="xhv-Bc-3Dc"/>
+                                    <barButtonItem title="Item" image="house" catalog="system" id="s2J-XL-npI"/>
+                                    <barButtonItem title="Item" image="chart.bar" catalog="system" id="Gqv-X7-G6J"/>
                                 </items>
                                 <color key="tintColor" red="0.93725490570000003" green="0.71764707569999997" blue="0.71372550729999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="barTintColor" red="0.99107521769999996" green="0.97006481889999996" blue="0.96944731470000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -877,9 +876,6 @@
                         <color key="backgroundColor" red="0.40392160420000001" green="0.32941177490000001" blue="0.32941177490000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="v9d-6k-Y7m"/>
-                    <connections>
-                        <outlet property="CrackACT" destination="WRT-GI-ezr" id="uy5-l1-Mhj"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eEf-Hq-yZb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
