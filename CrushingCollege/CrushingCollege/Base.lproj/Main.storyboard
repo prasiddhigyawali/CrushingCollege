@@ -24,6 +24,9 @@
                                 <state key="normal" title="QUIZ" backgroundImage="square.and.pencil" catalog="system">
                                     <color key="titleColor" red="0.4044300616" green="0.33094742890000001" blue="0.32913273570000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Mut-vH-I1w" kind="presentation" modalPresentationStyle="fullScreen" id="tiQ-dJ-buM"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bJS-xh-5OI">
                                 <rect key="frame" x="214" y="242" width="186" height="160"/>
@@ -33,9 +36,6 @@
                                 <state key="normal" title="PILLARS" backgroundImage="chart.bar" catalog="system">
                                     <color key="titleColor" red="0.4044300616" green="0.33094742890000001" blue="0.32913273570000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
-                                <connections>
-                                    <segue destination="HaQ-Wz-lhW" kind="show" id="P6U-5M-RNA"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zhK-n3-6ix">
                                 <rect key="frame" x="80" y="508" width="254" height="174"/>
@@ -74,8 +74,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="1.  How much help do you need with standardized testing (SAT/ACT, AP)?" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="v1t-RQ-aEA">
-                                <rect key="frame" x="15" y="135" width="384" height="69"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="1.  How much help do you need with standardized testing (SAT/ACT)?" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="v1t-RQ-aEA">
+                                <rect key="frame" x="15" y="129" width="384" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.42015168069999997" green="0.32526677850000002" blue="0.32631665469999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -83,7 +83,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="2. How much help do you need with writing your college essays?" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="6FV-fD-ol1">
-                                <rect key="frame" x="15" y="256" width="374" height="69"/>
+                                <rect key="frame" x="15" y="250" width="374" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.42015168069999997" green="0.32526677850000002" blue="0.32631665469999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -91,7 +91,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="3. How much help do you need with filling out FAFSA/Scholarship apps?" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="rMI-rf-IQW">
-                                <rect key="frame" x="15" y="397" width="374" height="69"/>
+                                <rect key="frame" x="15" y="391" width="374" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.42015168069999997" green="0.32526677850000002" blue="0.32631665469999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -99,7 +99,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="4. How much help do you need with creating a college list/picking a college?" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="bu7-rb-fd2">
-                                <rect key="frame" x="15" y="521" width="374" height="69"/>
+                                <rect key="frame" x="15" y="515" width="374" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.42015168069999997" green="0.32526677850000002" blue="0.32631665469999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -107,7 +107,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="5. How much help do you need with filling out the college applications?" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="dCn-d0-crv">
-                                <rect key="frame" x="15" y="643" width="374" height="69"/>
+                                <rect key="frame" x="15" y="637" width="374" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.42015168069999997" green="0.32526677850000002" blue="0.32631665469999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -115,189 +115,264 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sMh-lO-HRd">
-                                <rect key="frame" x="85" y="202" width="20" height="24"/>
+                                <rect key="frame" x="85" y="196" width="20" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="1"/>
                                 <color key="tintColor" red="0.95561891789999998" green="0.91638916729999997" blue="0.91538280250000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button" image="circle.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="Test1:" destination="Mut-vH-I1w" eventType="touchUpInside" id="Jf8-pS-Vzv"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FJI-X5-yz8">
-                                <rect key="frame" x="138" y="202" width="20" height="24"/>
+                                <rect key="frame" x="138" y="196" width="20" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="1"/>
                                 <color key="tintColor" red="0.94795805219999996" green="0.85366892809999995" blue="0.85139852760000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button" image="circle.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="Test2:" destination="Mut-vH-I1w" eventType="touchUpInside" id="KTa-9v-xRl"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fzl-Wv-mmK">
-                                <rect key="frame" x="251" y="202" width="20" height="24"/>
+                                <rect key="frame" x="251" y="196" width="20" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="1"/>
                                 <color key="tintColor" red="0.86020649859999998" green="0.64037594900000006" blue="0.64037594900000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button" image="circle.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="Test4:" destination="Mut-vH-I1w" eventType="touchUpInside" id="Q1b-ix-DJC"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xb3-6C-ppW">
-                                <rect key="frame" x="310" y="202" width="20" height="24"/>
+                                <rect key="frame" x="310" y="196" width="20" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="1"/>
                                 <color key="tintColor" red="0.89243096109999998" green="0.50413531060000005" blue="0.50459802149999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button" image="circle.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="Test5:" destination="Mut-vH-I1w" eventType="touchUpInside" id="wvE-Bo-MLp"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vcu-3x-d6r">
-                                <rect key="frame" x="197" y="202" width="20" height="24"/>
+                                <rect key="frame" x="197" y="196" width="20" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="1"/>
                                 <color key="tintColor" red="0.8980392157" green="0.66274509800000003" blue="0.66274509800000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button" image="circle.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="Test3:" destination="Mut-vH-I1w" eventType="touchUpInside" id="acg-uy-Scj"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9kY-Up-epF">
-                                <rect key="frame" x="85" y="336" width="20" height="24"/>
+                                <rect key="frame" x="85" y="330" width="20" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="1"/>
                                 <color key="tintColor" red="0.95561891789999998" green="0.91638916729999997" blue="0.91538280250000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button" image="circle.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="Essay1:" destination="Mut-vH-I1w" eventType="touchUpInside" id="lVJ-t9-4C4"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UzP-qC-J6b">
-                                <rect key="frame" x="138" y="336" width="20" height="24"/>
+                                <rect key="frame" x="138" y="330" width="20" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="1"/>
                                 <color key="tintColor" red="0.94795805219999996" green="0.85366892809999995" blue="0.85139852760000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button" image="circle.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="Essay2:" destination="Mut-vH-I1w" eventType="touchUpInside" id="EdX-db-tNt"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jap-hU-I8h">
-                                <rect key="frame" x="251" y="336" width="20" height="24"/>
+                                <rect key="frame" x="251" y="330" width="20" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="1"/>
                                 <color key="tintColor" red="0.8980392157" green="0.66274509800000003" blue="0.66274509800000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button" image="circle.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="Essay4:" destination="Mut-vH-I1w" eventType="touchUpInside" id="evV-Ga-FzB"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dc2-RQ-h1E">
-                                <rect key="frame" x="310" y="336" width="20" height="24"/>
+                                <rect key="frame" x="310" y="330" width="20" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="1"/>
                                 <color key="tintColor" red="0.89243096109999998" green="0.50413531060000005" blue="0.50459802149999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button" image="circle.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="Essay5:" destination="Mut-vH-I1w" eventType="touchUpInside" id="4Vx-W3-xng"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4aX-Vl-6KC">
-                                <rect key="frame" x="197" y="336" width="20" height="24"/>
+                                <rect key="frame" x="197" y="330" width="20" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="1"/>
                                 <color key="tintColor" red="0.8980392157" green="0.66274509800000003" blue="0.66274509800000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button" image="circle.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="Essay3:" destination="Mut-vH-I1w" eventType="touchUpInside" id="GUI-jx-LVQ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Lb-9h-k9n">
-                                <rect key="frame" x="85" y="468" width="20" height="24"/>
+                                <rect key="frame" x="85" y="462" width="20" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="1"/>
                                 <color key="tintColor" red="0.95561891789999998" green="0.91638916729999997" blue="0.91538280250000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button" image="circle.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="Aid1:" destination="Mut-vH-I1w" eventType="touchUpInside" id="5TT-hD-RI1"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E30-pm-gHo">
-                                <rect key="frame" x="138" y="468" width="20" height="24"/>
+                                <rect key="frame" x="138" y="462" width="20" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="1"/>
                                 <color key="tintColor" red="0.94795805219999996" green="0.85366892809999995" blue="0.85139852760000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button" image="circle.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="Aid2:" destination="Mut-vH-I1w" eventType="touchUpInside" id="MmG-zQ-1lM"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="67h-up-xUQ">
-                                <rect key="frame" x="251" y="468" width="20" height="24"/>
+                                <rect key="frame" x="251" y="462" width="20" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="1"/>
                                 <color key="tintColor" red="0.8980392157" green="0.66274509800000003" blue="0.66274509800000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button" image="circle.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="Aid4:" destination="Mut-vH-I1w" eventType="touchUpInside" id="UJp-cG-In7"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x7X-oY-O9B">
-                                <rect key="frame" x="310" y="468" width="20" height="24"/>
+                                <rect key="frame" x="310" y="462" width="20" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="1"/>
                                 <color key="tintColor" red="0.89243096109999998" green="0.50413531060000005" blue="0.50459802149999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button" image="circle.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="Aid5:" destination="Mut-vH-I1w" eventType="touchUpInside" id="7ip-3a-vE3"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rIU-8M-dYV">
-                                <rect key="frame" x="197" y="468" width="20" height="24"/>
+                                <rect key="frame" x="197" y="462" width="20" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="1"/>
                                 <color key="tintColor" red="0.8980392157" green="0.66274509800000003" blue="0.66274509800000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button" image="circle.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="Aid3:" destination="Mut-vH-I1w" eventType="touchUpInside" id="aLS-Jx-nW8"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yWE-K2-fkf">
-                                <rect key="frame" x="85" y="593" width="20" height="24"/>
+                                <rect key="frame" x="85" y="587" width="20" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="1"/>
                                 <color key="tintColor" red="0.95561891789999998" green="0.91638916729999997" blue="0.91538280250000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button" image="circle.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="College1:" destination="Mut-vH-I1w" eventType="touchUpInside" id="k3H-qV-lF3"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zds-Vt-f2V">
-                                <rect key="frame" x="138" y="593" width="20" height="24"/>
+                                <rect key="frame" x="138" y="587" width="20" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="1"/>
                                 <color key="tintColor" red="0.94795805219999996" green="0.85366892809999995" blue="0.85139852760000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button" image="circle.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="College2:" destination="Mut-vH-I1w" eventType="touchUpInside" id="cnu-1d-Kf5"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M1A-1j-vks">
-                                <rect key="frame" x="251" y="593" width="20" height="24"/>
+                                <rect key="frame" x="251" y="587" width="20" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="1"/>
                                 <color key="tintColor" red="0.8980392157" green="0.66274509800000003" blue="0.66274509800000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button" image="circle.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="College4:" destination="Mut-vH-I1w" eventType="touchUpInside" id="opY-WT-UOc"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Bs-JV-Mvh">
-                                <rect key="frame" x="310" y="593" width="20" height="24"/>
+                                <rect key="frame" x="310" y="587" width="20" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="1"/>
                                 <color key="tintColor" red="0.89243096109999998" green="0.50413531060000005" blue="0.50459802149999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button" image="circle.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="College5:" destination="Mut-vH-I1w" eventType="touchUpInside" id="LdA-az-sQh"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y1E-3f-PPG">
-                                <rect key="frame" x="197" y="593" width="20" height="24"/>
+                                <rect key="frame" x="197" y="587" width="20" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="1"/>
                                 <color key="tintColor" red="0.8980392157" green="0.66274509800000003" blue="0.66274509800000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button" image="circle.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="College3:" destination="Mut-vH-I1w" eventType="touchUpInside" id="Qjd-J5-tCa"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mw4-HH-hNS">
-                                <rect key="frame" x="85" y="720" width="20" height="24"/>
+                                <rect key="frame" x="85" y="714" width="20" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="1"/>
                                 <color key="tintColor" red="0.95561891789999998" green="0.91638916729999997" blue="0.91538280250000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button" image="circle.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="Apps1:" destination="Mut-vH-I1w" eventType="touchUpInside" id="mNY-gv-yeg"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A9g-ru-BFd">
-                                <rect key="frame" x="138" y="720" width="20" height="24"/>
+                                <rect key="frame" x="138" y="714" width="20" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="1"/>
                                 <color key="tintColor" red="0.94795805219999996" green="0.85366892809999995" blue="0.85139852760000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button" image="circle.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="Apps2:" destination="Mut-vH-I1w" eventType="touchUpInside" id="l2f-Cy-6Qc"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7pq-yh-lMc">
-                                <rect key="frame" x="251" y="720" width="20" height="24"/>
+                                <rect key="frame" x="251" y="714" width="20" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="1"/>
                                 <color key="tintColor" red="0.8980392157" green="0.66274509800000003" blue="0.66274509800000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button" image="circle.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="Apps4:" destination="Mut-vH-I1w" eventType="touchUpInside" id="1ei-fN-kVz"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hHY-rT-A4h">
-                                <rect key="frame" x="310" y="720" width="20" height="24"/>
+                                <rect key="frame" x="310" y="714" width="20" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="1"/>
                                 <color key="tintColor" red="0.89243096109999998" green="0.50413531060000005" blue="0.50459802149999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button" image="circle.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="Apps5:" destination="Mut-vH-I1w" eventType="touchUpInside" id="aci-g9-o6Z"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xjd-TE-Qrx">
-                                <rect key="frame" x="197" y="720" width="20" height="24"/>
+                                <rect key="frame" x="197" y="714" width="20" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="1"/>
                                 <color key="tintColor" red="0.8980392157" green="0.66274509800000003" blue="0.66274509800000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button" image="circle.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="Apps3:" destination="Mut-vH-I1w" eventType="touchUpInside" id="dqz-ch-AEs"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="QUIZ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Akp-eS-8Bz">
-                                <rect key="frame" x="172" y="77" width="60" height="30"/>
+                                <rect key="frame" x="172" y="71" width="60" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cJQ-QB-axB">
-                                <rect key="frame" x="0.0" y="824" width="414" height="44"/>
+                                <rect key="frame" x="0.0" y="818" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
                                     <barButtonItem title="Item" image="book" catalog="system" id="0Qt-dW-4I1"/>
@@ -306,6 +381,16 @@
                                 </items>
                                 <color key="barTintColor" red="0.99107521769999996" green="0.97006481889999996" blue="0.96944731470000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </toolbar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bpy-13-Gpt">
+                                <rect key="frame" x="179" y="760" width="56" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.94992786650000005" green="0.91943603750000003" blue="0.9150996804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="SUBMIT"/>
+                                <connections>
+                                    <action selector="submit:" destination="Mut-vH-I1w" eventType="touchUpInside" id="QIv-Bg-Fvz"/>
+                                    <segue destination="Utq-Vw-Rl4" kind="presentation" modalPresentationStyle="fullScreen" id="bqz-zX-LYr"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="qhM-ky-gfk"/>
                         <color key="backgroundColor" red="0.42015168069999997" green="0.32526677850000002" blue="0.32631665469999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -361,38 +446,38 @@
                                 <rect key="frame" x="328" y="492" width="66" height="211"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sb7-XE-l71">
-                                <rect key="frame" x="109" y="722" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sb7-XE-l71">
+                                <rect key="frame" x="91" y="755" width="79" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k9q-1X-e04">
-                                <rect key="frame" x="186" y="722" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k9q-1X-e04">
+                                <rect key="frame" x="174" y="755" width="66" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UUK-OC-Opy">
-                                <rect key="frame" x="263" y="722" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UUK-OC-Opy">
+                                <rect key="frame" x="251" y="757" width="73" height="16"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FYV-bz-x2v">
-                                <rect key="frame" x="340" y="722" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="utx-oX-ScM">
+                                <rect key="frame" x="0.0" y="755" width="98" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="utx-oX-ScM">
-                                <rect key="frame" x="32" y="722" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FYV-bz-x2v">
+                                <rect key="frame" x="323" y="755" width="86" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -750,7 +835,7 @@
             <objects>
                 <viewController id="HaQ-Wz-lhW" customClass="TestPrepViewController" customModule="CrushingCollege" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WRT-GI-ezr">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="SAT/ACT PREP" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="O0f-pW-YWZ">
@@ -861,7 +946,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nfg-Rb-ScF">
-                                <rect key="frame" x="0.0" y="764" width="414" height="44"/>
+                                <rect key="frame" x="0.0" y="818" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
                                     <barButtonItem title="Item" image="book" catalog="system" id="xhv-Bc-3Dc"/>
