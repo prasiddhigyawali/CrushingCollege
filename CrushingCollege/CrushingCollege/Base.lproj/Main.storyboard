@@ -19,25 +19,28 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G4Z-uK-3Dk">
                                 <rect key="frame" x="20" y="242" width="186" height="160"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="20"/>
-                                <state key="normal" title="QUIZ" backgroundImage="square.fill" catalog="system">
-                                    <color key="titleColor" red="0.99662179660000005" green="0.91677063270000003" blue="0.79311345740000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Black" family="Hoefler Text" pointSize="20"/>
+                                <color key="tintColor" red="0.89279526470000004" green="0.66240233179999997" blue="0.66318935160000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="QUIZ" backgroundImage="square.and.pencil" catalog="system">
+                                    <color key="titleColor" red="0.4044300616" green="0.33094742890000001" blue="0.32913273570000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bJS-xh-5OI">
                                 <rect key="frame" x="214" y="242" width="186" height="160"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
-                                <state key="normal" title="PILLARS" backgroundImage="square.fill" catalog="system">
-                                    <color key="titleColor" red="0.99662179660000005" green="0.91677063270000003" blue="0.79311345740000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="DevanagariSangamMN-Bold" family="Devanagari Sangam MN" pointSize="20"/>
+                                <color key="tintColor" red="0.85795116419999995" green="0.67673718930000004" blue="0.6721334457" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="PILLARS" backgroundImage="chart.bar" catalog="system">
+                                    <color key="titleColor" red="0.4044300616" green="0.33094742890000001" blue="0.32913273570000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fai-tb-QGA">
                                 <rect key="frame" x="114" y="435" width="186" height="160"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
-                                <state key="normal" title="RESOURCES" backgroundImage="square.fill" catalog="system">
-                                    <color key="titleColor" red="0.99662179660000005" green="0.91677063270000003" blue="0.79311345740000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="DevanagariSangamMN-Bold" family="Devanagari Sangam MN" pointSize="20"/>
+                                <color key="tintColor" red="0.85795116419999995" green="0.67673718930000004" blue="0.6721334457" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="RESOURCES" backgroundImage="book" catalog="system">
+                                    <color key="titleColor" red="0.4044300616" green="0.33094742890000001" blue="0.32913273570000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
                         </subviews>
@@ -48,6 +51,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="93.75"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="awv-wo-EDK">
+            <objects>
+                <viewController id="mti-EP-HxX" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="q1T-0D-OqY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="YN3-E8-tke"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6wt-EV-VQj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138" y="756"/>
         </scene>
         <!--Quiz View Controller-->
         <scene sceneID="ikB-5S-3Tg">
@@ -299,10 +317,10 @@
             </objects>
             <point key="canvasLocation" x="810.14492753623199" y="91.741071428571431"/>
         </scene>
-        <!--View Controller-->
+        <!--Pillars View Controller-->
         <scene sceneID="Gdd-nk-4Vj">
             <objects>
-                <viewController id="Utq-Vw-Rl4" sceneMemberID="viewController">
+                <viewController id="Utq-Vw-Rl4" customClass="PillarsViewController" customModule="CrushingCollege" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Jpp-Xl-Wuo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -333,20 +351,191 @@
             </objects>
             <point key="canvasLocation" x="1456.521739130435" y="93.75"/>
         </scene>
-        <!--View Controller-->
+        <!--ScholarshipVC-->
         <scene sceneID="eya-4c-JZO">
             <objects>
-                <viewController id="DG2-1S-jKD" sceneMemberID="viewController">
+                <viewController id="DG2-1S-jKD" customClass="ScholarshipVC" customModule="CrushingCollege" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="T6F-eg-Wd8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4yj-72-3Sk">
+                                <rect key="frame" x="0.0" y="818" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="Item" image="book" catalog="system" id="FBb-dG-BDY"/>
+                                    <barButtonItem title="Item" image="house" catalog="system" id="yxw-Xa-LFY"/>
+                                    <barButtonItem title="Item" image="chart.bar" catalog="system" id="iWB-EZ-ihK"/>
+                                </items>
+                                <color key="barTintColor" red="0.99107521769999996" green="0.97006481889999996" blue="0.96944731470000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </toolbar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="What is FAFSA?" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Aav-0y-ST6">
+                                <rect key="frame" x="20" y="101" width="374" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.98784738780000003" green="0.96986430879999996" blue="0.96931165460000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="boj-ev-OU1">
+                                <rect key="frame" x="20" y="134" width="374" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.98784738780000003" green="0.96986430879999996" blue="0.96931165460000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">FAFSA stands for The Free Application for Federal Student Aid. It is a form filled out by prospective/current college students so they can get a financial aid estimate from colleges.</string>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="SwI-Xh-TYQ">
+                                <rect key="frame" x="20" y="477" width="374" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.98784738780000003" green="0.96986430879999996" blue="0.96931165460000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">CSS stands for College Scholarship Service and it is actually very similar to FAFSA. The only differences are that your CSS profile is used for instituation based aid, and you have to pay to send your profile, and not all colleges require you send your CSS profile in. 
+</string>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="___________________________________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gdC-5n-anM">
+                                <rect key="frame" x="20" y="221" width="381" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" systemColor="opaqueSeparatorColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="U6r-sE-5QV">
+                                <rect key="frame" x="20" y="250" width="374" height="126"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.98784738780000003" green="0.96986430879999996" blue="0.96931165460000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Like many steps of the college admissions process, filling out the FAFSA can be very intimidating. The good thing is that there are reasources you can use. The FederalStudentAid website has info on how you can start and while filling out the FAFSA there is a question mark button that gives info on where to find the information they are asking for. </string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Ij-j4-fJ9">
+                                <rect key="frame" x="24" y="384" width="329" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                <state key="normal" title="Click here for the FSA's guide to filling out FAFSA!">
+                                    <color key="titleColor" red="0.39161282780000001" green="0.33360192179999998" blue="0.33219271900000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="FSAGuide:" destination="DG2-1S-jKD" eventType="touchUpInside" id="fOl-Vg-bW0"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="___________________________________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xlq-Ef-1N0">
+                                <rect key="frame" x="20" y="418" width="381" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" systemColor="opaqueSeparatorColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="FINANCIAL AID/SCHOLARSHIPS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fd7-Lu-onw">
+                                <rect key="frame" x="24" y="63" width="372" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
+                                <color key="textColor" red="0.39161282780000001" green="0.33360192179999998" blue="0.33219271900000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="What is a CSS profile?" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="MC1-zd-WWd">
+                                <rect key="frame" x="20" y="447" width="374" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.98784738780000003" green="0.96986430879999996" blue="0.96931165460000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xgR-Vf-MXg">
+                                <rect key="frame" x="24" y="583" width="365" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                <state key="normal" title="Click here to find more information about CSS profiles! ">
+                                    <color key="titleColor" red="0.39161282780000001" green="0.33360192179999998" blue="0.33219271900000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="CSSProfile:" destination="DG2-1S-jKD" eventType="touchUpInside" id="tSi-4T-e0p"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="___________________________________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jl7-dW-Mr7">
+                                <rect key="frame" x="20" y="620" width="381" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" systemColor="opaqueSeparatorColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Scholarship!" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="CA6-la-eJh">
+                                <rect key="frame" x="20" y="649" width="374" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.98784738780000003" green="0.96986430879999996" blue="0.96931165460000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="goV-HZ-LZY">
+                                <rect key="frame" x="20" y="685" width="365" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.98784738780000003" green="0.96986430879999996" blue="0.96931165460000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Finding scholarships for you can be very hard. However, there are websites that you could use to make your scholarship search easier! Click the links below to go to these sites!</string>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="quE-wH-qan">
+                                <rect key="frame" x="24" y="769" width="118" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                <state key="normal" title="Scholarships.com">
+                                    <color key="titleColor" red="0.39161282780000001" green="0.33360192179999998" blue="0.33219271900000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="scholarshipsorg:" destination="DG2-1S-jKD" eventType="touchUpInside" id="fIv-0r-lnl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qv6-Fr-SDn">
+                                <rect key="frame" x="165" y="769" width="46" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                <state key="normal" title="UNIGO">
+                                    <color key="titleColor" red="0.39161282780000001" green="0.33360192179999998" blue="0.33219271900000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="UNIGO:" destination="DG2-1S-jKD" eventType="touchUpInside" id="SGI-j0-O9d"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="|" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pkV-mu-BPZ">
+                                <rect key="frame" x="153" y="772" width="4" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" systemColor="opaqueSeparatorColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="|" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4SX-W6-5vn">
+                                <rect key="frame" x="219" y="772" width="4" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" systemColor="opaqueSeparatorColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V5i-6x-JIr">
+                                <rect key="frame" x="231" y="769" width="79" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                <state key="normal" title="GoingMerry">
+                                    <color key="titleColor" red="0.39161282780000001" green="0.33360192179999998" blue="0.33219271900000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="GoingMerry:" destination="DG2-1S-jKD" eventType="touchUpInside" id="1x3-9p-icV"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="uDJ-fj-f9f"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.99107521769999996" green="0.97006481889999996" blue="0.96944731470000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="99q-6M-cuf"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1As-aD-EjQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2122" y="94"/>
+            <point key="canvasLocation" x="2121.739130434783" y="93.75"/>
         </scene>
     </scenes>
     <color key="tintColor" red="0.89243096109999998" green="0.50413531060000005" blue="0.50459802149999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -355,7 +544,13 @@
         <image name="chart.bar" catalog="system" width="128" height="90"/>
         <image name="circle.fill" catalog="system" width="128" height="121"/>
         <image name="house" catalog="system" width="128" height="106"/>
-        <image name="square.fill" catalog="system" width="128" height="114"/>
+        <image name="square.and.pencil" catalog="system" width="128" height="115"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
