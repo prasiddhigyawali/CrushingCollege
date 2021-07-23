@@ -1212,6 +1212,11 @@
                                 <state key="normal" title="Common App Site">
                                     <color key="titleColor" red="0.4039215686" green="0.3294117647" blue="0.3294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="commonAppSite:" destination="emV-On-8YO" eventType="touchUpInside" id="HSw-dt-BYX"/>
                                 </connections>
@@ -1224,6 +1229,11 @@
                                 <state key="normal" title="Ultimate Guide">
                                     <color key="titleColor" red="0.4039215686" green="0.3294117647" blue="0.3294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="ultimateGuide:" destination="emV-On-8YO" eventType="touchUpInside" id="czq-ms-Pt5"/>
                                 </connections>
@@ -1236,6 +1246,11 @@
                                 <state key="normal" title="Step by Step">
                                     <color key="titleColor" red="0.4039215686" green="0.3294117647" blue="0.3294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="stepByStep:" destination="emV-On-8YO" eventType="touchUpInside" id="maf-n3-20p"/>
                                 </connections>
@@ -1248,6 +1263,11 @@
                                 <state key="normal" title="Learn More">
                                     <color key="titleColor" red="0.4039215686" green="0.3294117647" blue="0.3294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="learnMore:" destination="emV-On-8YO" eventType="touchUpInside" id="u7s-Li-AUw"/>
                                 </connections>
@@ -1260,6 +1280,11 @@
                                 <state key="normal" title="Coalition App Site">
                                     <color key="titleColor" red="0.4039215686" green="0.3294117647" blue="0.3294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="coalitionAppSite:" destination="emV-On-8YO" eventType="touchUpInside" id="ryA-2v-m7C"/>
                                 </connections>
