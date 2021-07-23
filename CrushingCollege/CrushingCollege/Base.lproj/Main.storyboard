@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G4Z-uK-3Dk">
-                                <rect key="frame" x="20" y="242" width="186" height="160"/>
+                                <rect key="frame" x="20" y="293" width="186" height="160"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HoeflerText-Black" family="Hoefler Text" pointSize="20"/>
                                 <color key="tintColor" red="0.89279526470000004" green="0.66240233179999997" blue="0.66318935160000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -29,7 +29,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bJS-xh-5OI">
-                                <rect key="frame" x="214" y="242" width="186" height="160"/>
+                                <rect key="frame" x="214" y="293" width="186" height="160"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="DevanagariSangamMN-Bold" family="Devanagari Sangam MN" pointSize="20"/>
                                 <color key="tintColor" red="0.85795116419999995" green="0.67673718930000004" blue="0.6721334457" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -41,7 +41,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UV7-iP-HbU">
-                                <rect key="frame" x="121" y="450" width="186" height="160"/>
+                                <rect key="frame" x="114" y="507" width="186" height="160"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="DevanagariSangamMN-Bold" family="Devanagari Sangam MN" pointSize="20"/>
                                 <color key="tintColor" red="0.85795116419999995" green="0.67673718930000004" blue="0.6721334457" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -52,6 +52,10 @@
                                     <segue destination="tQ4-rU-vxT" kind="presentation" modalPresentationStyle="fullScreen" id="bC5-Mo-N6d"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="2Kk-29-cT5">
+                                <rect key="frame" x="51" y="65" width="313" height="188"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.9943060279" green="0.97026640180000001" blue="0.96958357100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -805,6 +809,9 @@
                                 <state key="normal" title="Filling Out College Applications">
                                     <color key="titleColor" red="0.39161282780000001" green="0.33360192179999998" blue="0.33219271900000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="emV-On-8YO" kind="presentation" modalPresentationStyle="fullScreen" id="dkp-IV-A6h"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="___________________________________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wa0-i5-boC">
                                 <rect key="frame" x="20" y="536" width="381" height="21"/>
@@ -827,6 +834,9 @@
                                 <state key="normal" title="Picking The Right College For You">
                                     <color key="titleColor" red="0.39161282780000001" green="0.33360192179999998" blue="0.33219271900000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="vot-3k-22g" kind="presentation" modalPresentationStyle="fullScreen" id="xva-tw-ads"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="1Sw-Tk-YEd"/>
@@ -836,6 +846,123 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kmE-PG-xXI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1512" y="1022"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="j6t-aM-tGI">
+            <objects>
+                <viewController id="vot-3k-22g" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UYg-tS-jWf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Picking A College/Making A List" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pkm-Hg-EVS">
+                                <rect key="frame" x="28" y="84" width="358" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
+                                <color key="textColor" red="0.39161282780000001" green="0.33360192179999998" blue="0.33219271900000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SEj-0Y-y9Y">
+                                <rect key="frame" x="0.0" y="818" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="Item" image="book" catalog="system" id="Off-wq-L9r">
+                                        <connections>
+                                            <segue destination="tQ4-rU-vxT" kind="presentation" modalPresentationStyle="fullScreen" id="AJC-ai-QDo"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Item" image="house" catalog="system" id="bCe-M1-3xd">
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="SX5-5Q-8Lc"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Item" image="chart.bar" catalog="system" id="yG9-6Q-Cbc">
+                                        <connections>
+                                            <segue destination="Utq-Vw-Rl4" kind="presentation" modalPresentationStyle="fullScreen" id="UwY-nL-H9D"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <color key="barTintColor" red="0.99107521769999996" green="0.97006481889999996" blue="0.96944731470000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </toolbar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="iDo-qM-qaf">
+                                <rect key="frame" x="20" y="135" width="374" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.9476148486" green="0.76665562389999997" blue="0.76212257149999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">1. Think about universities you’ve heard about or are interested in and compile a list. If you don’t know many, search a couple majors you’re interested in and see what schools are good for that.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="0p8-7F-TuS">
+                                <rect key="frame" x="20" y="216" width="374" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.40181106329999999" green="0.3561567068" blue="0.35505712029999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">2. Consider what you want out of your college experience. Rigorous Academics? Research Opportunities? Athletics? Affordability? Large Crowd or Small Community? City or rural?</string>
+                                <color key="textColor" red="0.98462241890000002" green="0.96966475249999995" blue="0.96917682890000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="3. Create a spreadsheet with all your universities and the different categories listed above." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="kwT-pa-Sh2">
+                                <rect key="frame" x="20" y="296" width="374" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.91519159080000001" green="0.77108973260000002" blue="0.76407033209999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Ok1-lv-DOr">
+                                <rect key="frame" x="20" y="347" width="374" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.40181106329999999" green="0.3561567068" blue="0.35505712029999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">4. Research all the colleges on your spreadsheet and fill in the different categories to gain information and insight about the schools of your interest.</string>
+                                <color key="textColor" red="0.98462241890000002" green="0.96966475249999995" blue="0.96917682890000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hTP-5v-FLF">
+                                <rect key="frame" x="20" y="412" width="374" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.91519159080000001" green="0.77108973260000002" blue="0.76407033209999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">5. Compare the colleges on your spreadsheet and see which ones are the most compatible with your expectations for your college experience and highlight them.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="X1T-M4-IRe">
+                                <rect key="frame" x="20" y="479" width="374" height="87"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.40181106329999999" green="0.3561567068" blue="0.35505712029999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">6. Now look at the acceptance rate of all the schools you highlighted. If the acceptance rate is under 30% it is a reach school. If the acceptance rate is between 30-60% it is a match school. If the acceptance rate is over 60% it is a safety school.</string>
+                                <color key="textColor" red="0.98462241890000002" green="0.96966475249999995" blue="0.96917682890000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="KEn-9A-OjA">
+                                <rect key="frame" x="20" y="574" width="374" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.91519159080000001" green="0.77108973260000002" blue="0.76407033209999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">7. Make sure your list of highlighted schools does not solely have any one of these types of schools. It’s not good to have too many reach schools while at the same time it is not good to have too many safety schools. A good rule of thumb is to apply to two schools in each tier.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="OoH-8P-gRm">
+                                <rect key="frame" x="20" y="670" width="374" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.40181106329999999" green="0.3561567068" blue="0.35505712029999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">8. Make a final list of all your highlighted schools divided by tier based on acceptance. If you are not applying to any schools in one of the tiers, consider going back to your spreadsheet and finding a school that you are interested in that falls in one of your empty tiers.</string>
+                                <color key="textColor" red="0.98462241890000002" green="0.96966475249999995" blue="0.96917682890000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="sm7-LE-Dcw"/>
+                        <color key="backgroundColor" red="0.98784738780000003" green="0.96986430879999996" blue="0.96931165460000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pOg-fT-HCB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3008.6956521739135" y="1021.875"/>
         </scene>
         <!--College Essay View Controller-->
         <scene sceneID="e2y-yy-EvK">
@@ -1197,9 +1324,21 @@
                                 <rect key="frame" x="0.0" y="818" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
-                                    <barButtonItem title="Item" image="book" catalog="system" id="fnz-Hi-QDT"/>
-                                    <barButtonItem title="Item" image="house" catalog="system" id="GE5-6v-Poc"/>
-                                    <barButtonItem title="Item" image="chart.bar" catalog="system" id="8DA-1Z-G6K"/>
+                                    <barButtonItem title="Item" image="book" catalog="system" id="fnz-Hi-QDT">
+                                        <connections>
+                                            <segue destination="tQ4-rU-vxT" kind="presentation" modalPresentationStyle="fullScreen" id="QR9-d8-XDn"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Item" image="house" catalog="system" id="GE5-6v-Poc">
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="0RQ-Xi-Bia"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Item" image="chart.bar" catalog="system" id="8DA-1Z-G6K">
+                                        <connections>
+                                            <segue destination="Utq-Vw-Rl4" kind="presentation" modalPresentationStyle="fullScreen" id="WTp-Zq-IqX"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                                 <color key="tintColor" red="0.93725490570000003" green="0.71764707569999997" blue="0.71372550729999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="barTintColor" red="0.99107521769999996" green="0.97006481889999996" blue="0.96944731470000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1314,9 +1453,9 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Iwy-fq-c8F"/>
-        <segue reference="vKR-f3-UBB"/>
-        <segue reference="P3m-E5-iSX"/>
+        <segue reference="bC5-Mo-N6d"/>
+        <segue reference="VQu-aL-bmy"/>
+        <segue reference="SX5-5Q-8Lc"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.89243096109999998" green="0.50413531060000005" blue="0.50459802149999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
     <resources>
@@ -1329,6 +1468,7 @@
         <image name="chart.bar" catalog="system" width="128" height="90"/>
         <image name="circle.fill" catalog="system" width="128" height="121"/>
         <image name="house" catalog="system" width="128" height="106"/>
+        <image name="logo" width="376" height="316"/>
         <image name="square.and.pencil" catalog="system" width="128" height="115"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
