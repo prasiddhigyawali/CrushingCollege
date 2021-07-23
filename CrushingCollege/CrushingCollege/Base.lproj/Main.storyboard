@@ -21,7 +21,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HoeflerText-Black" family="Hoefler Text" pointSize="20"/>
                                 <color key="tintColor" red="0.89279526470000004" green="0.66240233179999997" blue="0.66318935160000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="QUIZ" backgroundImage="square.and.pencil" catalog="system">
+                                <state key="normal" backgroundImage="square.and.pencil" catalog="system">
                                     <color key="titleColor" red="0.4044300616" green="0.33094742890000001" blue="0.32913273570000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
@@ -33,14 +33,24 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="DevanagariSangamMN-Bold" family="Devanagari Sangam MN" pointSize="20"/>
                                 <color key="tintColor" red="0.85795116419999995" green="0.67673718930000004" blue="0.6721334457" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="PILLARS" backgroundImage="chart.bar" catalog="system">
+                                <state key="normal" backgroundImage="chart.bar" catalog="system">
                                     <color key="titleColor" red="0.4044300616" green="0.33094742890000001" blue="0.32913273570000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Utq-Vw-Rl4" kind="presentation" modalPresentationStyle="fullScreen" id="VQu-aL-bmy"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zhK-n3-6ix">
-                                <rect key="frame" x="80" y="508" width="254" height="174"/>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UV7-iP-HbU">
+                                <rect key="frame" x="121" y="450" width="186" height="160"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <fontDescription key="fontDescription" name="DevanagariSangamMN-Bold" family="Devanagari Sangam MN" pointSize="20"/>
+                                <color key="tintColor" red="0.85795116419999995" green="0.67673718930000004" blue="0.6721334457" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" backgroundImage="book" catalog="system">
+                                    <color key="titleColor" red="0.4044300616" green="0.33094742890000001" blue="0.32913273570000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="tQ4-rU-vxT" kind="presentation" modalPresentationStyle="fullScreen" id="bC5-Mo-N6d"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -50,21 +60,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="93.75"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="awv-wo-EDK">
-            <objects>
-                <viewController id="mti-EP-HxX" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="q1T-0D-OqY">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="YN3-E8-tke"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="6wt-EV-VQj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="138" y="756"/>
         </scene>
         <!--Quiz View Controller-->
         <scene sceneID="ikB-5S-3Tg">
@@ -375,9 +370,21 @@
                                 <rect key="frame" x="0.0" y="818" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
-                                    <barButtonItem title="Item" image="book" catalog="system" id="0Qt-dW-4I1"/>
-                                    <barButtonItem title="Item" image="house" catalog="system" id="Szk-7K-cBE"/>
-                                    <barButtonItem title="Item" image="chart.bar" catalog="system" id="9yt-zl-DPD"/>
+                                    <barButtonItem title="Item" image="book" catalog="system" id="0Qt-dW-4I1">
+                                        <connections>
+                                            <segue destination="tQ4-rU-vxT" kind="presentation" modalPresentationStyle="fullScreen" id="4OU-uJ-K7g"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Item" image="house" catalog="system" id="Szk-7K-cBE">
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="tSf-66-Y6F"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Item" image="chart.bar" catalog="system" id="9yt-zl-DPD">
+                                        <connections>
+                                            <segue destination="Utq-Vw-Rl4" kind="presentation" modalPresentationStyle="fullScreen" id="pAu-PZ-tNe"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                                 <color key="barTintColor" red="0.99107521769999996" green="0.97006481889999996" blue="0.96944731470000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </toolbar>
@@ -413,8 +420,16 @@
                                 <rect key="frame" x="0.0" y="818" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
-                                    <barButtonItem title="Item" image="book" catalog="system" id="zAd-xW-HMJ"/>
-                                    <barButtonItem title="Item" image="house" catalog="system" id="pqQ-Xp-yUn"/>
+                                    <barButtonItem title="Item" image="book" catalog="system" id="zAd-xW-HMJ">
+                                        <connections>
+                                            <segue destination="tQ4-rU-vxT" kind="presentation" modalPresentationStyle="fullScreen" id="MB4-ll-Hli"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Item" image="house" catalog="system" id="pqQ-Xp-yUn">
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="yUU-cf-7R5"/>
+                                        </connections>
+                                    </barButtonItem>
                                     <barButtonItem title="Item" image="chart.bar" catalog="system" id="y5K-7M-jTQ"/>
                                 </items>
                                 <color key="barTintColor" red="0.99107521769999996" green="0.97006481889999996" blue="0.96944731470000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -496,7 +511,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ekV-SJ-tCp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1456.521739130435" y="93.75"/>
+            <point key="canvasLocation" x="1468" y="92"/>
         </scene>
         <!--ScholarshipVC-->
         <scene sceneID="eya-4c-JZO">
@@ -506,16 +521,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4yj-72-3Sk">
-                                <rect key="frame" x="0.0" y="818" width="414" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <items>
-                                    <barButtonItem title="Item" image="book" catalog="system" id="FBb-dG-BDY"/>
-                                    <barButtonItem title="Item" image="house" catalog="system" id="yxw-Xa-LFY"/>
-                                    <barButtonItem title="Item" image="chart.bar" catalog="system" id="iWB-EZ-ihK"/>
-                                </items>
-                                <color key="barTintColor" red="0.99107521769999996" green="0.97006481889999996" blue="0.96944731470000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </toolbar>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="What is FAFSA?" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Aav-0y-ST6">
                                 <rect key="frame" x="20" y="101" width="374" height="25"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -674,6 +679,28 @@
                                     <action selector="GoingMerry:" destination="DG2-1S-jKD" eventType="touchUpInside" id="1x3-9p-icV"/>
                                 </connections>
                             </button>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4yj-72-3Sk">
+                                <rect key="frame" x="0.0" y="818" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="Item" image="book" catalog="system" id="FBb-dG-BDY">
+                                        <connections>
+                                            <segue destination="tQ4-rU-vxT" kind="presentation" modalPresentationStyle="fullScreen" id="uTa-TB-Mg7"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Item" image="house" catalog="system" id="yxw-Xa-LFY">
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="sTC-2E-1aP"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Item" image="chart.bar" catalog="system" id="iWB-EZ-ihK">
+                                        <connections>
+                                            <segue destination="Utq-Vw-Rl4" kind="presentation" modalPresentationStyle="fullScreen" id="CGk-4j-W3z"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <color key="barTintColor" red="0.99107521769999996" green="0.97006481889999996" blue="0.96944731470000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </toolbar>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="uDJ-fj-f9f"/>
                         <color key="backgroundColor" red="0.99215686274509807" green="0.96862745098039216" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -683,6 +710,132 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1As-aD-EjQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2121.739130434783" y="93.75"/>
+        </scene>
+        <!--Resource View Controller-->
+        <scene sceneID="cdk-1o-tL0">
+            <objects>
+                <viewController id="tQ4-rU-vxT" customClass="ResourceViewController" customModule="CrushingCollege" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4kD-at-9bf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tCN-jy-Rhi">
+                                <rect key="frame" x="0.0" y="818" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="Item" image="book" catalog="system" id="SMk-Wz-nQM"/>
+                                    <barButtonItem title="Item" image="house" catalog="system" id="Cpn-0H-iOk">
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="ncK-lw-NCs"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Item" image="chart.bar" catalog="system" id="pNn-8e-4j2">
+                                        <connections>
+                                            <segue destination="Utq-Vw-Rl4" kind="presentation" modalPresentationStyle="fullScreen" id="Qtf-Tu-7pV"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <color key="barTintColor" red="0.99107521769999996" green="0.97006481889999996" blue="0.96944731470000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </toolbar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="RESOURCES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dIj-5u-uxf">
+                                <rect key="frame" x="134" y="75" width="147" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
+                                <color key="textColor" red="0.39161282780000001" green="0.33360192179999998" blue="0.33219271900000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U7R-4m-UPG">
+                                <rect key="frame" x="20" y="137" width="182" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                <state key="normal" title="FAFSA/Scholarships">
+                                    <color key="titleColor" red="0.39161282780000001" green="0.33360192179999998" blue="0.33219271900000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="DG2-1S-jKD" kind="presentation" modalPresentationStyle="fullScreen" id="Hj3-UL-C9N"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="___________________________________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zp2-Qj-kun">
+                                <rect key="frame" x="17" y="191" width="381" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" systemColor="opaqueSeparatorColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4eW-gm-G6k">
+                                <rect key="frame" x="17" y="249" width="250" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                <state key="normal" title="Writing Your College Essays">
+                                    <color key="titleColor" red="0.39161282780000001" green="0.33360192179999998" blue="0.33219271900000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="2tP-Cr-HvN" kind="presentation" modalPresentationStyle="fullScreen" id="joC-yR-6gp"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="___________________________________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jcO-bb-rBD">
+                                <rect key="frame" x="17" y="307" width="381" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" systemColor="opaqueSeparatorColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7wn-Y7-LxU">
+                                <rect key="frame" x="20" y="364" width="125" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                <state key="normal" title="SAT/ACT Prep">
+                                    <color key="titleColor" red="0.39161282780000001" green="0.33360192179999998" blue="0.33219271900000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="HaQ-Wz-lhW" kind="presentation" modalPresentationStyle="fullScreen" id="vlh-GX-zjn"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="___________________________________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Boa-Mm-w2J">
+                                <rect key="frame" x="20" y="423" width="381" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" systemColor="opaqueSeparatorColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TF8-cs-Up5">
+                                <rect key="frame" x="20" y="478" width="280" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                <state key="normal" title="Filling Out College Applications">
+                                    <color key="titleColor" red="0.39161282780000001" green="0.33360192179999998" blue="0.33219271900000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="___________________________________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wa0-i5-boC">
+                                <rect key="frame" x="20" y="536" width="381" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" systemColor="opaqueSeparatorColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="___________________________________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mjB-th-9dG">
+                                <rect key="frame" x="20" y="654" width="381" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" systemColor="opaqueSeparatorColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oVI-eR-aeq">
+                                <rect key="frame" x="20" y="597" width="303" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                <state key="normal" title="Picking The Right College For You">
+                                    <color key="titleColor" red="0.39161282780000001" green="0.33360192179999998" blue="0.33219271900000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="1Sw-Tk-YEd"/>
+                        <color key="backgroundColor" red="0.99107521769999996" green="0.97006481889999996" blue="0.96944731470000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kmE-PG-xXI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1512" y="1022"/>
         </scene>
         <!--College Essay View Controller-->
         <scene sceneID="e2y-yy-EvK">
@@ -696,9 +849,21 @@
                                 <rect key="frame" x="0.0" y="818" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
-                                    <barButtonItem title="Item" image="book" catalog="system" id="JMY-Uz-4ai"/>
-                                    <barButtonItem title="Item" image="house" catalog="system" id="zgp-0P-FfX"/>
-                                    <barButtonItem title="Item" image="chart.bar" catalog="system" id="lPT-yY-TVO"/>
+                                    <barButtonItem title="Item" image="book" catalog="system" id="JMY-Uz-4ai">
+                                        <connections>
+                                            <segue destination="tQ4-rU-vxT" kind="presentation" modalPresentationStyle="fullScreen" id="Iwy-fq-c8F"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Item" image="house" catalog="system" id="zgp-0P-FfX">
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="P3m-E5-iSX"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Item" image="chart.bar" catalog="system" id="lPT-yY-TVO">
+                                        <connections>
+                                            <segue destination="Utq-Vw-Rl4" kind="presentation" modalPresentationStyle="fullScreen" id="vKR-f3-UBB"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                                 <color key="tintColor" red="0.93725490570000003" green="0.71764707569999997" blue="0.71372550729999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="barTintColor" red="0.99107521769999996" green="0.97006481889999996" blue="0.96944731470000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -949,9 +1114,21 @@
                                 <rect key="frame" x="0.0" y="818" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
-                                    <barButtonItem title="Item" image="book" catalog="system" id="xhv-Bc-3Dc"/>
-                                    <barButtonItem title="Item" image="house" catalog="system" id="s2J-XL-npI"/>
-                                    <barButtonItem title="Item" image="chart.bar" catalog="system" id="Gqv-X7-G6J"/>
+                                    <barButtonItem title="Item" image="book" catalog="system" id="xhv-Bc-3Dc">
+                                        <connections>
+                                            <segue destination="tQ4-rU-vxT" kind="presentation" modalPresentationStyle="fullScreen" id="DnV-Gz-HCv"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Item" image="house" catalog="system" id="s2J-XL-npI">
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="kLu-Yo-kPQ"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Item" image="chart.bar" catalog="system" id="Gqv-X7-G6J">
+                                        <connections>
+                                            <segue destination="Utq-Vw-Rl4" kind="presentation" modalPresentationStyle="fullScreen" id="pnZ-65-Uju"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                                 <color key="tintColor" red="0.93725490570000003" green="0.71764707569999997" blue="0.71372550729999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="barTintColor" red="0.99107521769999996" green="0.97006481889999996" blue="0.96944731470000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -967,6 +1144,12 @@
             <point key="canvasLocation" x="3511.594202898551" y="93.75"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="vlh-GX-zjn"/>
+        <segue reference="DnV-Gz-HCv"/>
+        <segue reference="Qtf-Tu-7pV"/>
+        <segue reference="ncK-lw-NCs"/>
+    </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.89243096109999998" green="0.50413531060000005" blue="0.50459802149999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
     <resources>
         <image name="bar1" width="150" height="480"/>
@@ -984,9 +1167,6 @@
         </systemColor>
         <systemColor name="opaqueSeparatorColor">
             <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
     </resources>
 </document>
